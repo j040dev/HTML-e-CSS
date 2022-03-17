@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade final</title>
+    <style>
+        body{
+            background-color: pink;
+        }
+        header{
+            background-color: rgb(235, 125, 143);
+            width: 95%;
+            height: 200px;
+            float:left;
+            margin: 10px;
+            padding: 10px;
+        }
+        nav{
+            background-color: yellow;
+            width: 25%;
+            height: 725px;
+            float:left;
+            margin-left: 10px;
+            margin-top: 10px;
+            padding-top: 10px;
+            padding-left: 10px;
+            
+        
+        }
+        content{
+            background-color: orange;
+            width: 65%;
+            height: 500px;
+            float:left;
+            margin-top: 10px;
+            margin-left: 10px;
+            padding-left: 10px;
+            padding-top: 10px;
+        }
+        footer{
+            background-color: green;
+            width: 70%;
+            height: 200px;
+            float: left;
+            margin-top: 10px;
+            margin-left: 27%;
+            padding-left: 10px;
+            padding-top: 10px;
+            position: absolute;
+            top: 770px;
+        }
+
+    </style>
+
+    <style>
+        h1,li{
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            display: flex;
+        }
+        .menu li a{color:#333; text-decoration:none; padding:5px 10px; display:block;}
+
+        .menu li a:hover{
+            background:#333;
+            color:#fff;
+            -moz-box-shadow:0 3px 10px 0 #CCC;
+            -webkit-box-shadow:0 3px 10px 0 #ccc;
+            text-shadow:0px 0px 5px #fff;
+}
+        .menu li  ul{
+            position:absolute;
+            top:25px;
+            left:0;
+            background-color:#fff;
+            display:none;
+        }
+        .menu li ul li{
+            border:1px solid #c0c0c0;
+            display:block;
+            width:150px;
+}
+        .menu li{
+            position:relative;
+            float:left;
+            border-right:1px solid #c0c0c0;
+        }
+        .menu{
+            list-style:none;
+            border:1px solid #c0c0c0;
+            float:left;
+            }
+            li{
+                font-size: 25px;
+            }
+            
+    </style>
+</head>
+<body>
+    <header><h1>header</h1></header>
+    <nav><h1>nav</h1>
+    <ul>
+        <li><a href="index.html" target="_self"><h3>HOME</h3></a><br></li>
+        <li><a href="servicos.html"target="_self"><h3>Serviços</h3></a></li>
+        <li><a href="cadastro.html" target="_self"><h3>Cadastro</h3></a></li>
+        <li><a href="parceiros.html" target="_self"><h3>Parceiros</h3></a></li>
+    </ul>
+    </nav>
+    <content>
+        <h1>contatos</h1>
+        <ul class="menu">
+            <li>Gmail:joao.pedro.nascimen1420@gmail.com </li>
+            <li>github:<a href="https://github.com/j040dev/HTML-e-CSS" target="_blank">Repositório</a></li>
+        </ul>
+    </content>
+    <footer><h1>Footer</h1></footer>
+</body>
+</html>
